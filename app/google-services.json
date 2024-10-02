@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "140001932812",
+    "project_id": "bloghub-3a8b3",
+    "storage_bucket": "bloghub-3a8b3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140001932812:android:5015b633059a6138a02029",
+        "android_client_info": {
+          "package_name": "com.invictus.blogger"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHmgNonhy2Y98OJwh_bk3PK3s02qN4JXk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140001932812:android:fcf62f37425ea901a02029",
+        "android_client_info": {
+          "package_name": "com.invictus.bloghub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHmgNonhy2Y98OJwh_bk3PK3s02qN4JXk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
