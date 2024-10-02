@@ -107,7 +107,7 @@ class FlaskApi  {
         } catch (e: Exception) {
             Log.d(TAG, "fetchcategory5: " + e.message)
             "Error: ${e.message}"
-            _category.value= CategoryInfo("FAILED TO SUMMARIZE", 0.0)
+            _category.value= CategoryInfo("FAILED TO CATEGORIZE", 0.0)
         }
 
     }}

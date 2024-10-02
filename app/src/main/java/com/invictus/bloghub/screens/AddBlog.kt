@@ -127,6 +127,9 @@ fun AddBlog(navHostController: NavHostController)  {
 
                         Spacer(modifier = Modifier.padding(16.dp))
                         Text(text ="PLEASE ENTER BOTH FIELDS" )
+                        isbuttonvisvisible=true
+
+
 
                     }else{
 

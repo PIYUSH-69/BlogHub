@@ -1,5 +1,7 @@
 package com.invictus.bloghub.repository
 
+import android.content.ContentValues.TAG
+import android.util.Log
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateOf
 import kotlinx.coroutines.Dispatchers
@@ -68,6 +70,7 @@ class Api {
             // Return the response
             _summary.value=summaryText.toString()
         } catch (e: Exception) {
+            Log.d(TAG, "fetchSummarizedText: "+e.message)
             "Error: ${e.message}"
             _summary.value="FAILED TO SUMMARIZE"
     }

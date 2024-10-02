@@ -16,6 +16,7 @@ class BlogFirebase {
     val blogs: StateFlow<List<blogitem>>
         get() = _blogs
 
+
     suspend fun getBlogs(){
         val list=blogreference.get().await().toObjects(blogitem::class.java)
         Log.d(TAG, "getBlogs: "+list)
